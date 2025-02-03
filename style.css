@@ -1,0 +1,112 @@
+#chatbox {
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #edf2ed;
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        #chatbox {
+            height: 90vh;
+            overflow-y: auto;
+            background-color:#2b3234;
+            padding: 10px;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 500px;
+            transition: all 0.3s ease-in-out;
+        }
+       
+
+        input::placeholder {
+            color: rgba(255, 255, 777, 0.7);
+        }
+        input {
+            color: #1e1e1e;
+        }
+        button:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+        .btn-container {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        button {
+            background: #1e1e1e;
+            color: #1e1e1e;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .form-container {
+            display: none;
+            flex-direction: column;
+            background: #2C2C2C;
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+        }
+        .form-container .close-btn {
+            margin-top: 10px;
+            cursor: pointer;
+            color: #4FA3D1;
+        }
+     #send-btn{
+               background: #2C2C2C;
+                color: #ffffff;
+                width:60px;
+}
+#messageInput{
+                  width:450px;
+}
+#logo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    float:left;
+    margin-top:0px;
+    margin-left:8px;
+    cursor: pointer;
+   
+}
+#Youtube{
+    color:red;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    cursor: pointer;
+    font-size:30px;
+}
+#youtube-Text{
+    position: absolute;
+    bottom: 8px;
+    right: 50px;
+    color:#9c9b9a;
+    height: auto;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
